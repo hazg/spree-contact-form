@@ -1,5 +1,5 @@
 module Spree
-	class ContactController < BaseController
+	class ContactController < Spree::StoreController
 	  before_filter :load_topics
 
 	  def show
